@@ -15,8 +15,6 @@ from pandas.core.index import MultiIndex
 ## take parameters
 #inputFile = "E:\DMLE Project\Madhu\data\HierarchyInputWithBFMResult_brandFamily.csv"
 #targetFile = "E:\DMLE Project\Madhu\data\\target_brandFamily.csv"
-inputFile = sys.argv[1]
-targetFile = sys.argv[2]
 modelPath = "E:\DMLE Project\Madhu\ModelRepo"
 Client = "Nestle"
 Category = "Water"

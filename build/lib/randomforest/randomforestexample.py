@@ -320,7 +320,7 @@ def rf(inputLevelWithBFM,targetLevelName):
 
 
 #if __name__ == "__main__":
-def main():
+def main(inputFile,targetFile):
     sc = SparkContext(appName="MLRandomForestTrain")
     sqlContext = SQLContext(sc)
 
